@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <title>Pulse</title>
+  <!-- The tab icon, and ONLY the tab icon: browsers pick this over the .ico
+       and a tab is never bigger than ~32 px, so this is the optically
+       corrected cut of logo.svg. The inner guide ring collapses into mud
+       below ~24 px and is dropped, the rim is thickened to survive one pixel,
+       and the gem is grown and lifted a step in the palette to hold its three
+       facets apart. Anything shown large uses logo.svg. -->
+  <circle cx="50" cy="50" r="49" fill="#0f1117"/>
+  <circle cx="50" cy="50" r="46" fill="none" stroke="#6366f1" stroke-width="4"/>
+  <polygon points="50,16 80,50 50,84 20,50" fill="#4f46e5"/>
+  <polygon points="50,16 80,50 50,50" fill="#6366f1"/>
+  <polygon points="50,16 50,50 20,50" fill="#818cf8"/>
+</svg>

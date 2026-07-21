@@ -1,0 +1,41 @@
+# Ignore everything by default
+*
+.*
+
+# Root config files
+!.gitignore
+!.env.example
+!.oxlintrc.json
+!components.json
+!index.html
+!README.md
+!Dockerfile
+!nginx.conf
+!.dockerignore
+!package.json
+!package-lock.json
+!tsconfig.json
+!tsconfig.app.json
+!tsconfig.node.json
+!vite.config.ts
+!vercel.json
+
+# GitHub
+!.github/
+!.github/**
+
+# Application source
+!src/
+!src/**
+
+# Static assets
+!public/
+!public/**
+
+# Build / tooling scripts
+!scripts/
+!scripts/**
+
+# README screenshots
+!docs/
+!docs/**
